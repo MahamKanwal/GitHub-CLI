@@ -1,18 +1,74 @@
-.navbar,.command{
-    background-color: #0D1117 !important;
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(103,103,103);
+    border-radius: 100px;
 }
- .navbar-brand>img{
-     width: 20%; 
-    height: 40%;
-} 
-.navbar-text{
-    gap: 25px;
-    margin-left: 1020px;
+.rectangle {
+    height: 27px;
+    width: 12px;
+    border-radius: 3px;
+    border: 2px solid white;
+    margin-right: 2px;
 }
-.navbar-brand{
-    margin-left: 30px;
+.color{
+    color: red;
 }
-.fa-solid{
-    margin-top: 10px;
-    font-size: x-small;
-}
+.text {
+    font-family: monospace;
+    }
+    .green {
+        color: green;
+        }
+        .bg{
+             background-color: #0D1117 !important;
+        }
+        .font {
+            font-size: 60px !important;
+            line-height: 60px !important;
+            font-weight: 800 !important;
+            color: black;
+            }
+            .head {
+                background-color: white;
+            }
+            .bgi {
+                background-image: url(images/square-pattern.png);
+                background-size: cover;
+                height: 600px;
+                background-color: white;
+            }
+            .card {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #fff;
+                background-clip: border-box;
+                border: 1px solid rgba(0, 0, 0, .125);
+                border-radius: .25rem;
+            }
+            .bs {
+                box-shadow: 2px 2px 5px gainsboro;
+            }
+            .card-title {
+                margin-bottom: .5rem;
+            }
+            .ch {
+                font-weight: 800;
+                font-size: xx-large;
+            }
+            .lead {
+                /* font-size: 1.25rem; */
+                font-weight: 300;
+                
+                }
+             p   {
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
+                .end {
+                    background-color: #f6f8fa;
+                }
+              
